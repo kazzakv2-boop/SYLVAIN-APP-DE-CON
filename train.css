@@ -1,0 +1,48 @@
+
+.titre {
+    border: 2px solid black;
+    border-radius: 0.5em;
+    padding: 20px;
+    width: 4.em;
+    box-shadow: -6px 18px 20px 8px rgba(0, 0, 0, 0.25);
+}
+
+.contneur {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.arabe {
+    border: 1px;
+    border-radius: 0.5em;
+    padding: 20px;
+    width: 6em;
+    box-shadow: -6px 18px 20px 8px rgba(0, 0, 0, 0.25);
+    margin-left: 20px;
+}
+.div {
+    height: 200px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+#droite {
+    position: absolute;
+
+    
+}
+.paragraphe {
+    position: absolute;
+    max-width: 300px;
+}
+.page1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.position {
+    justify-self: center;
+}
